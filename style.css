@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Outfit:wght@100..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&display=swap');
+/* 
+.header-link{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+
+}
+.logo{
+    font-family: kajiro;
+    font-size: 50px;
+}
+
+.navbar-list ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-left: 50px;
+   
+}
+
+.search-bar{
+    width: 60%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    
+
+
+}
+.search-bar>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.search-bar>img{
+    width: 30px;
+    height: 30px;
+}
+.user-cart img{
+    margin: 5px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+.user-cart img:hover{
+    background-color: #f0f0f0;
+}
+
+/* main 
+.hero-section{
+    background-color: #f0f0f0;
+
+}
+.hero-text{
+    
+    width: 50%;
+    margin-left: 40px;
+
+
+}
+.hero-text h1{
+    font-family: "Poetsen One", sans-serif;
+    width: 50%;
+    font-size: 45px;
+    margin-top: 50px ;
+}
+.hero-text p{
+    width: 85%;
+    font-size: 15px;
+}
+.hero-text button{
+    border: 0;
+    outline: 0;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50px;
+    width: 30%;
+}
+.brand-info1, .brand-info2{
+    width: 30%;
+    margin-top:20px ;
+    padding: 5px;
+    border-right: 1px solid rgba(189, 189, 189, 0.471);
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.brand-info{
+    width: 30%;
+    margin-top:20px ;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+.brand{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.brand img{
+    margin-left: 40px;
+   width: 150px;
+   height: 40px;
+   margin-right: 40px;
+}
+.products-title{
+    text-align: center  ;
+    margin-top: 50px;
+    font-weight: 700;
+    font-family:  "Poetsen One", sans-serif;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    margin-bottom: 50px;
+}
+.card{
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.card-btn{
+    color: black;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid #c2c0c0;
+    background-color: transparent;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+
+margin-left: 40%;
+}
+.card-title{
+    font-size: 17px;
+
+}
+.discount{
+    margin: 10px;
+    padding:2px  10px ;
+    color: red;
+    border-radius: 50px;
+    font-size: 13px;
+    background: #FF33331A;
+
+}
+.outfit{
+    width:100%;
+    height: 100vh;
+    background-color:#f0f0f0 ;
+    border-radius: 20px;
+}
+
+.outfit h2{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 50px;
+}
+.image-container{
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.outfit img{
+    gap: 10px;
+    align-items: center;
+    
+    margin: 10px;
+}
+
+.card1{
+    display: flex;
+    cursor: pointer;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    gap: 10px;
+    margin-left:20px ;
+    margin-bottom: 20px;
+}
+.card1::-webkit-scrollbar{
+    display: none;
+}
+.review-title{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.review-title h2{
+    text-align: center;
+    margin-left: 540px;
+}
+.arrow{
+    margin-right: 40px;
+}
+.arrow img{
+    cursor: pointer;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.arrow img:hover{
+    background-color: #f0f0f0;
+       
+}
+.contact{
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.text{
+    width: 50%;
+    margin: 30px;
+
+    color: white;
+    background-color: black;
+    font-size: 37px;
+    font-family: "Briem Hand", cursive;
+    font-weight: 700;
+}
+.contacts{
+    width: 50%;
+}
+.contact-mail{
+    width: 70%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.contact-mail input{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.contacts button{
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 7px;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.footer{
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 70vh;
+}
+.social-media{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 30%;
+}
+
+
+@media (max-width:900px) {
+   .main{
+    margin-left: 20px;
+   }
+
+    .hero{
+        background-color: #f0f0f0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        display: flex;
+        fle 
+    }
+} */
+
+/* Base styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-link {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.logo {
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 50px;
+}
+
+.navbar-list ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.search-bar {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+}
+
+.search-bar > input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.search-bar > img {
+    width: 30px;
+    height: 30px;
+}
+
+.user-cart img {
+    margin: 5px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.user-cart img:hover {
+    background-color: #f0f0f0;
+}
+
+/* Hero section */
+.hero-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.hero-text button {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+/* Brand section */
+.brand {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brand img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Products section */
+.products-title {
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 700;
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 24px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.card {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.card-btn {
+    color: black;
+    padding: 15px;
+    width: 100%;
+    max-width: 200px;
+    border: 1px solid #c2c0c0;
+    background-color: transparent;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.card-title {
+    font-size: 17px;
+}
+
+.discount {
+    margin: 10px;
+    padding: 2px 10px;
+    color: red;
+    border-radius: 50px;
+    font-size: 13px;
+    background: #FF33331A;
+}
+
+/* Outfit section */
+.outfit {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.outfit h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.outfit img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Card section */
+.card1 {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    gap: 10px;
+    padding: 20px;
+}
+
+.card1::-webkit-scrollbar {
+    display: none;
+}
+.card-btn{
+   margin-left:40% ;
+}
+
+/* Review section */
+.review-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.review-title h2 {
+    margin: 0 auto;
+}
+
+.arrow {
+    margin: 0 10px;
+}
+
+.arrow img {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.arrow img:hover {
+    background-color: #f0f0f0;
+}
+
+/* Contact section */
+.contact {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact .text {
+    font-size: 24px;
+    font-family: 'Briem Hand', cursive;
+    font-weight: 700;
+}
+
+.contact-mail {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.contact-mail input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.contacts button {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+.text{
+    width: 50%;
+    
+}
+.text p{
+    font-size: 45px;
+}
+.contact-mail{
+    width: 450px;
+}
+
+/* Footer section */
+.footer {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbar-list ul {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .search-bar {
+        width: 90%;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+    .brand img{
+        margin-top: 15px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .brand {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-btn {
+        margin-left: 0;
+    }
+
+    .outfit h2 {
+        font-size: 28px;
+    }
+
+    .contact .text {
+        font-size: 20px;
+    }
+    .footer-item{
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .footer-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .text p{
+        text-align: center;
+        font-size: 25px;
+    }
+    .footer-text img{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 24px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-text p {
+        font-size: 12px;
+    }
+    .brand img{
+        margin-top: 15px;
+    }
+
+    .products-title {
+        font-size: 18px;
+    }
+
+    .card-btn {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .outfit h2 {
+        font-size: 24px;
+    }
+
+    .contact .text {
+        font-size: 18px;
+    }
+
+    .contact-mail, .contacts button {
+        width: 90%;
+    }
+    .footer-item{
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .footer-text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-text img{
+        display: none;
+    }
+    .text p{
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+    }
+}
